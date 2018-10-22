@@ -1,5 +1,7 @@
 # vue-crypto-dashboard
 
+A Cryptocurrency Dashboard build with Vue JS, Binance Websocket API for realtime price, amChart for displaying historical charts, SVG Sparkline Chart and Latest News feed from Cyyptocompare site 
+
 ## Project setup
 ```
 npm install

@@ -1,6 +1,8 @@
-var isEmpty = function(obj) {
-  for (var key in obj)
-    return false;
+const isEmpty = function(obj) {
+  for(let key in obj) {
+    if(obj.hasOwnProperty(key))
+      return false;
+  }
   return true;
-}
+};
 export { isEmpty }

@@ -1,0 +1,492 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button:focus {
+  outline: none
+}
+.x-small{
+  font-size: 60%;
+}
+.btn {
+  box-shadow: 0 4px 6px rgba(50,50,93,.15),0 1px 4px rgba(0, 0, 0, 0.2);
+  &.active {
+    background-color: #ffcb1d !important;
+    box-shadow: none !important;
+  }
+}
+.layout-container{
+  height: 100%;
+  width:100%;
+}
+.page-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  z-index: 100;
+  box-shadow: 0 6px 7px 0 rgba(0, 0, 0, 0.45);
+  transition: left .3s ease;
+  .back-btn{
+    position: absolute;
+    background-color: transparent;
+    left: 0;
+    padding: 0 20px;
+    margin: -1px 0;
+    border: none;
+    cursor: pointer;
+    i{
+      vertical-align: middle;
+    }
+  }
+  .page-title{
+    font-size:25px;
+    font-weight: bold;
+  }
+}
+.page-container {
+  width: 100%;
+  height: 100%;
+  padding-top:60px;
+}
+
+.add-btn {
+  width:30px;
+  height:30px;
+  padding: 0;
+  background:transparent;
+  border: 2px solid $primary;
+  position:relative;
+  cursor:pointer;
+  display:inline-block;
+  margin:10px;
+  color: $primary;
+  border-radius: 50%;
+  box-shadow: 4px 4px 20px #060606;
+  font-size:12px;
+  i {
+    font-size: 1.6em;
+    line-height: 1.6em;
+    text-shadow: 2px 2px 3px rgb(6, 6, 6);
+  }
+  &:active{
+    box-shadow: none;
+  }
+}
+.slash {
+  color: $primary;
+  font-size: xx-large;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.content-box {
+  height: 100%;
+  width: 100%;
+  margin-top: -10px;
+}
+.menu-bar {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding: 0 20px;
+  z-index: 50;
+  background-color: #333;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.42);
+  #base {
+    width: 230px;
+  }
+  #quote {
+    width: 100px;
+    margin-left: 10px;
+  }
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 15px 15px;
+  overflow-x: hidden;
+}
+
+.coin-box{
+  position: relative;
+  margin: .5rem;
+  width: 390px;
+  height: 200px;
+  background: #fff;
+  border: 1px solid rgba(220, 220, 220, 0.58);
+  box-shadow: 5px 5px 25px 0 rgba(46,61,73,.16);
+  border-radius: 6px;
+  padding: 0;
+  transition: .5s;
+  display: flex;
+  flex-direction: column;
+  pointer: cursor;
+}
+.box-icon {
+  padding-right: 10px;
+  span{
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    box-shadow: 0 8px 24px -2px rgba(0, 0, 0, 0.3), 0px -2px 12px 3px rgba(156, 156, 156, 0.1);
+    border-radius: 50%;
+    border: 2px solid #fff;
+  }
+}
+.coin-price {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.price {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+.coin-info {
+  height: 212px;
+  padding: 10px 20px 5px 15px
+}
+.coin-per{
+  font-size: 20px;
+  font-weight: bold;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.indicator {
+  display: inline-block;
+  font-family: FontAwesome;
+  color:inherit;
+  padding-right:5px;
+}
+.up {
+  color: #53A800;
+  .indicator:before {
+    content: "\f062";
+  }
+}
+.down {
+  color: red;
+  .indicator:before {
+    content: "\f063";
+  }
+}
+.sparkline-chart {
+  height: 94px;
+}
+
+.box-body{
+  display: flex;
+  align-items: center;
+  padding: 0 15px 10px;
+}
+
+.my-sidebar {
+  flex: 0 0 230px;
+  background-color: greenyellow;
+}
+
+@media (max-width: 992px) {
+  .my-sidebar {
+    flex: auto;
+  }
+}
+
+
+.info-page {
+  display: flex;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.info-section{
+  display:flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-items:stretch;
+  flex-direction: column;
+  margin-right:15px;
+  flex-grow: 1;
+}
+.col-card {
+  padding-bottom: 15px;
+}
+.news-section{
+  flex: 0 0 400px;
+  max-height: calc(100vh - 60px);
+}
+
+.chart-content{
+  box-shadow: 0 0 60px 0 rgba(31, 41, 56, 0.1);
+}
+.chart-content{
+  padding: 20px;
+}
+.info-card{
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 60px 0 rgba(31, 41, 56, 0.1);
+  height: 100%;
+  padding: 15px;
+  display:flex;
+  flex-direction: column;
+}
+.info-label {
+  font-weight: bold;
+  display:inline-block;
+  width: 90px;
+}
+.coin-img {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  -webkit-box-shadow: 0 8px 24px -2px rgba(0, 0, 0, 0.3), 0px -2px 12px 3px rgba(156, 156, 156, 0.1);
+  box-shadow: 0 8px 24px -2px rgba(0, 0, 0, 0.3), 0px -2px 12px 3px rgba(156, 156, 156, 0.1);
+  border-radius: 50%;
+  border: 2px solid #fff;
+  float: left;
+}
+.coin-name {
+  font-size: 24px;
+  font-weight: bold;
+  line-height:40px;
+  vertical-align: middle;
+  margin-left: 10px;
+  float:left;
+}
+.chg-block{
+  font-size: 20px;
+}
+@media (max-width: 1200px) {
+  .news-section {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+}
+
+// Chart Panel
+.chart-panel {
+  height: 474px;
+}
+.chart-bar {
+  height: 45px;
+  align-items: center;
+}
+.chart-type {
+  margin-right: auto;
+  padding-left: 10px;
+}
+.chart-interval{
+  padding-right:10px;
+}
+// Spinner for Chart
+.spinner {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  bottom: 10px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 500;
+  opacity: .6;
+  background-color: white;
+}
+.circle-spinner {
+  width: 64px;
+  height: 64px;
+  clear: both;
+  margin: 20px auto;
+  border: 4px rgba(#000, 0.25) solid;
+  border-top: 4px rgba(#000, 1) solid;
+  border-radius: 50%;
+  z-index: 800;
+  animation: circleAnim .6s infinite linear;
+}
+
+@-webkit-keyframes circleAnim {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+// News Style
+.news {
+  height: 100%;
+  line-height: 1.3;
+  border: 1px solid rgba(138, 173, 255, 0.25);
+  box-shadow: 0 0 60px 0 rgba(31,41,56,0.1);
+  a, a:hover, a:active, a:focus {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .news-header {
+    text-align: center;
+    height: 50px;
+    line-height:50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #333;
+    color: #ffde00;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.05);
+  }
+  .news-block {
+    height: calc(100% - 65px);
+    background: #fff;
+    overflow-y:auto;
+  }
+}
+.news-item{
+  text-align: left;
+  background: #FFF;
+  margin: 10px 15px 10px 10px;
+  border-radius: 6px;
+  border-color: #ececec;
+  max-height: 200px;
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: 2px 2px 2px rgba(31,41,56,0.1), -2px -2px 2px rgba(31,41,56,0.1);
+  p {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: .25rem;
+  }
+}
+.news-title{
+  font-size: 14px;
+  font-weight:bold;
+  margin-bottom: .25rem;
+}
+.thumb-img {
+  float:left;
+  width: 90px;
+  margin-right: 10px;
+  img {
+    width: 90px;
+    height: 90px;
+    border-radius: 6px;
+    display:block;
+  }
+}
+.news-data{
+  display: block;
+  font-size: 13px;
+  color: #565656;
+}
+.news-source {
+  display:inline-block;
+  color: orange;
+}
+.news-date {
+  display: inline-block;
+  float:right;
+}
+// Dropdown Container
+.dd-container {
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  cursor: pointer;
+  transition: all .15s ease;
+  &.show {
+    animation: show-dropdown .25s ease forwards;
+  }
+  .menu-btn {
+    color: #a8a8a8;
+    &:hover {
+      color: black
+    }
+  }
+  .dd-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 10;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 4px;
+    box-shadow: 0 12px 50px rgba(50,50,93,.1), 0 0 15px rgba(0,0,0,.1);
+    .dd-item{
+      display: block;
+      line-height: 1.5;
+      padding: 3px 5px;
+      clear: both;
+      &:hover{
+        background-color: #eaeaea;
+      }
+    }
+  }
+  @keyframes show-dropdown {
+    0% {
+      transition: visibility .25s,opacity .25s,transform .25s;
+      transform: translate(0,10px) perspective(200px) rotateX(-2deg);
+      opacity: 0
+    }
+
+    100% {
+      transform: translate(0,0);
+      opacity: 1
+    }
+  }
+}
+
+.v-select {
+  .dropdown-toggle {
+    background: #fff !important;
+    border-color: rgba(82, 166, 183, .39);
+    &::after{
+      display: none;
+    }
+  }
+  .dropdown-menu {
+    min-width: 120px;
+    overflow-y: auto;
+  }
+  input[type=search], input[type=search]:focus {
+    font-size: 12px !important;
+  }
+  &.single .selected-tag {
+    font-size: 12px;
+  }
+  .form-control {
+    height: calc(1.25rem + 2px);
+  }
+}
+.fade-enter-active,.fade-leave-active {
+  transition: opacity .8s
+}
+.fade-enter,.fade-leave-active {
+  opacity: 0
+}

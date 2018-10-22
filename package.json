@@ -1,17 +1,42 @@
 {
   "name": "vue-crypto-dashboard",
+  "description": "Vue Cryptocurrency Dashboard",
+  "author": "JayeshLab <helloiamjayesh@gmail.com>",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "keywords": [
+    "crypto",
+    "cryptocurrency",
+    "dashboard",
+    "binance",
+    "amchart",
+    "realtime price",
+    "vue",
+    "vue.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayeshLab/vue-crypto-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JayeshLab/vue-crypto-dashboard/issues"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "docs": "vue-cli-service build --dest docs",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "amcharts3": "github:amcharts/amcharts3",
+    "amstock3": "^3.21.13",
+    "bootstrap": "^4.1.3",
     "register-service-worker": "^1.0.0",
+    "timeago.js": "^4.0.0-beta.1",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
+    "vue-select": "^2.5.1",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
