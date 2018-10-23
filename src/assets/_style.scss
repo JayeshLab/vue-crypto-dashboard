@@ -149,9 +149,10 @@ button:focus {
   line-height: 1.2;
 }
 .price {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: bold;
-  line-height: 1.6;
+  line-height: 1.8;
+  padding-left: 45px;
 }
 .coin-info {
   height: 212px;
@@ -191,18 +192,6 @@ button:focus {
   align-items: center;
   padding: 0 15px 10px;
 }
-
-.my-sidebar {
-  flex: 0 0 230px;
-  background-color: greenyellow;
-}
-
-@media (max-width: 992px) {
-  .my-sidebar {
-    flex: auto;
-  }
-}
-
 
 .info-page {
   display: flex;
@@ -268,19 +257,14 @@ button:focus {
   margin-left: 10px;
   float:left;
 }
+
 .chg-block{
   font-size: 20px;
-}
-@media (max-width: 1200px) {
-  .news-section {
-    flex: 1 1 100%;
-    width: 100%;
-  }
 }
 
 // Chart Panel
 .chart-panel {
-  height: 474px;
+  height: 412px;
 }
 .chart-bar {
   height: 45px;
@@ -289,9 +273,6 @@ button:focus {
 .chart-type {
   margin-right: auto;
   padding-left: 10px;
-}
-.chart-interval{
-  padding-right:10px;
 }
 // Spinner for Chart
 .spinner {
@@ -315,7 +296,7 @@ button:focus {
   border: 4px rgba(#000, 0.25) solid;
   border-top: 4px rgba(#000, 1) solid;
   border-radius: 50%;
-  z-index: 800;
+  z-index: 5;
   animation: circleAnim .6s infinite linear;
 }
 
@@ -489,4 +470,57 @@ button:focus {
 }
 .fade-enter,.fade-leave-active {
   opacity: 0
+}
+
+//Responsive Layout
+
+@media (max-width: 1200px) {
+  .news-section {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-header .page-title {
+    font-size: 18px;
+  }
+  .menu-bar {
+    padding: 0 5px;
+    #quote {
+      margin-left: 5px;
+    }
+  }
+  .slash{
+    padding-left: 5px;
+  }
+  .add-btn{
+    margin: 5px;
+  }
+  .board {
+    padding: 60px 0px 0px;
+    justify-content: center;
+  }
+  .coin-info {
+    padding: 10px 15px 5px 10px;
+  }
+  .coin-box {
+    width: 346px;
+  }
+  .coin-name {
+    font-size: 19px;
+  }
+  .coin-price {
+    font-size: 18px;
+  }
+  .box-icon span {
+    height: 40px;
+    width: 40px;
+  }
+  .info-card{
+    padding: 10px;
+  }
+  .chg-block {
+    font-size: 18px;
+  }
 }

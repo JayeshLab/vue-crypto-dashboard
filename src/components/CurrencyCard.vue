@@ -9,7 +9,7 @@
                     </div>
                     <div class="col text-left">
                         <div><b>{{info.base}}</b>/{{info.quote}}</div>
-                        <div class="coin-price"><span v-if="info.quote==='USDT'">$</span>{{ticker.price }}<span v-if="info.quote !=='USDT'" style="font-size: x-small; font-weight: 700">{{info.quote}}</span></div>
+                        <div class="coin-price">{{ticker.price }}<span style="font-size: x-small; font-weight: 700; padding-left: 3px;">{{info.quote}}</span></div>
                     </div>
                 </div>
             </div>

@@ -12,11 +12,11 @@
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col">
+                                <div class="col-md-6">
                                     <span class="price" :style="{'color': (ticker.pchg && ticker.pchg > 0) ? 'green':'red'}">{{ticker.price}}<span class="x-small"> {{currency.quote}}</span></span>
                                 </div>
-                                <div class="col chg-block" :class="[(ticker.percent < 0)?'down':'up', 'col-5']">
-                                    <div class="text-dark small text-right">24h Change </div>
+                                <div class="col-md-6 chg-block" :class="[(ticker.percent < 0)?'down':'up']">
+                                    <div class="text-dark small text-right">24h Chg</div>
                                     <div class="text-right d-flex justify-content-end">
                                         <span class="indicator"></span><span>{{ ticker.percent }}%</span>
                                     </div>

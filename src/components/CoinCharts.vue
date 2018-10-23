@@ -7,16 +7,16 @@
                         <button class="btn btn-primary btn-sm mr-2" :class="[{'active': chartType==='cs'}]" @click="toCandleStickChart">Candlestick Chart</button>
                         <button class="btn btn-primary btn-sm" :class="[{'active': chartType==='lc'}]" @click="toLineChart">Line Chart</button>
                     </div>
-                    <div class="chart-interval">
-                        <button class="btn btn-primary btn-sm ml-2" :class="[{'active': interval==='1h'}]" @click="updateTimeInterval('1h')">1H</button>
-                        <button class="btn btn-primary btn-sm ml-2" :class="[{'active': interval==='1d'}]" @click="updateTimeInterval('1d')">1D</button>
-                        <button class="btn btn-primary btn-sm ml-2" :class="[{'active': interval==='1w'}]" @click="updateTimeInterval('1w')">1W</button>
-                        <button class="btn btn-primary btn-sm ml-2" :class="[{'active': interval==='1M'}]" @click="updateTimeInterval('1M')">1M</button>
-                    </div>
                 </div>
             </div>
             <div class="chart-panel col" ref="chartdiv" id="chartdiv">
 
+            </div>
+            <div class="col-12 p-2 text-right">
+                <button class="btn btn-primary btn-sm mr-2" :class="[{'active': interval==='1h'}]" @click="updateTimeInterval('1h')">1H</button>
+                <button class="btn btn-primary btn-sm mr-2" :class="[{'active': interval==='1d'}]" @click="updateTimeInterval('1d')">1D</button>
+                <button class="btn btn-primary btn-sm mr-2" :class="[{'active': interval==='1w'}]" @click="updateTimeInterval('1w')">1W</button>
+                <button class="btn btn-primary btn-sm mr-2" :class="[{'active': interval==='1M'}]" @click="updateTimeInterval('1M')">1M</button>
             </div>
         </div>
         <div class="spinner" v-if="chartLoading">
