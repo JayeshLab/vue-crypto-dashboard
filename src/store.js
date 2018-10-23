@@ -8,7 +8,8 @@ export default new Vuex.Store({
   strict: true,
   state: {
     currencies: localStorage.hasOwnProperty('vue-crypto-currencies')? JSON.parse(localStorage.getItem('vue-crypto-currencies')) : defaultPair,
-    tickers: {}
+    tickers: {},
+    chartData: []
   },
   getters: {
     getSymbolById: state => (symbol) => {
@@ -19,6 +20,9 @@ export default new Vuex.Store({
     }
   },
   mutations: {
+    UPDATE_CHART: (state, payload) => {
+      state.chartData.push(payload)
+    },
     UPDATE_TICKER: (state, payload) => {
       const tick = state.tickers[payload.symbol]
       payload.pchg = tick ? (payload.price > tick.price? 1 : -1 ) : 1

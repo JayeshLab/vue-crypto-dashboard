@@ -22,4 +22,12 @@ const unSubscribeSymbol = function(symbol) {
   wsApi.closeSubscription('ticker',false, symbol)
 };
 
-export {subscribeSymbol, unSubscribeSymbol}
+const subscribeChart = function(symbol, interval) {
+  wsApi.onKline(symbol, interval, (data) => {
+    console.log(data)
+  })
+};
+const unSubscribeChart = function(symbol, interval) {
+  wsApi.closeSubscription('kline',false, symbol, interval)
+}
+export {subscribeSymbol, unSubscribeSymbol, subscribeChart, unSubscribeChart}

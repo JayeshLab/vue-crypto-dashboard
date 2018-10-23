@@ -31,7 +31,7 @@
   // eslint-disable-next-line
   import 'amstock3/amcharts/amstock'
 
-  const proxyUrl = '';
+  var proxyUrl = 'https://cors-anywhere.herokuapp.com/'
 
   export default {
     name: 'coin-charts',
@@ -229,7 +229,7 @@
         }
       },
       fetchChartData(isUpdate = false) {
-        this.chartLoading = true;
+        this.chartLoading = true
         fetch(`${proxyUrl}https://api.binance.com/api/v1/klines?symbol=${this.symbol}&interval=${this.interval}`).then(
           function (response) {
             if (response.status !== 200) {
@@ -247,7 +247,8 @@
                   "volume": parseFloat(val[5]),
                   "value": parseFloat(val[4])
                 }
-              });
+              })
+              console.log(this.chartData)
               if (isUpdate) {
                 this.chart.dataSets[0].dataProvider = this.chartData;
                 this.chart.validateData()
