@@ -1,0 +1,996 @@
+{
+  "ETH": {
+    "id": "7605",
+    "Url": "/coins/eth/overview",
+    "img": "/media/20646/eth_logo.png",
+    "Name": "ETH",
+    "CoinName": "Ethereum"
+  },
+  "LTC": {
+    "id": "3808",
+    "Url": "/coins/ltc/overview",
+    "img": "/media/19782/litecoin-logo.png",
+    "Name": "LTC",
+    "CoinName": "Litecoin"
+  },
+  "DASH": {
+    "id": "3807",
+    "Url": "/coins/dash/overview",
+    "img": "/media/33842920/dash.png",
+    "Name": "DASH",
+    "CoinName": "Dash"
+  },
+  "XMR": {
+    "id": "5038",
+    "Url": "/coins/xmr/overview",
+    "img": "/media/19969/xmr.png",
+    "Name": "XMR",
+    "CoinName": "Monero"
+  },
+  "ZEC": {
+    "id": "24854",
+    "Url": "/coins/zec/overview",
+    "img": "/media/351360/zec.png",
+    "Name": "ZEC",
+    "CoinName": "ZCash"
+  },
+  "BTS": {
+    "id": "5039",
+    "Url": "/coins/bts/overview",
+    "img": "/media/20705/bts.png",
+    "Name": "BTS",
+    "CoinName": "Bitshares"
+  },
+  "XRP": {
+    "id": "5031",
+    "Url": "/coins/xrp/overview",
+    "img": "/media/34477776/xrp.png",
+    "Name": "XRP",
+    "CoinName": "XRP"
+  },
+  "CLOAK": {
+    "id": "4417",
+    "Url": "/coins/cloak/overview",
+    "img": "/media/19994/cloak.png",
+    "Name": "CLOAK",
+    "CoinName": "CloakCoin"
+  },
+  "XVG": {
+    "id": "4433",
+    "Url": "/coins/xvg/overview",
+    "img": "/media/12318032/xvg.png",
+    "Name": "XVG",
+    "CoinName": "Verge"
+  },
+  "NAV": {
+    "id": "4571",
+    "Url": "/coins/nav/overview",
+    "img": "/media/351431/nav.png",
+    "Name": "NAV",
+    "CoinName": "NavCoin"
+  },
+  "XLM": {
+    "id": "4614",
+    "Url": "/coins/xlm/overview",
+    "img": "/media/20696/str.png",
+    "Name": "XLM",
+    "CoinName": "Stellar"
+  },
+  "SYS": {
+    "id": "4618",
+    "Url": "/coins/sys/overview",
+    "img": "/media/25792583/sys.png",
+    "Name": "SYS",
+    "CoinName": "SysCoin"
+  },
+  "VIA": {
+    "id": "5015",
+    "Url": "/coins/via/overview",
+    "img": "/media/20070/via.png",
+    "Name": "VIA",
+    "CoinName": "ViaCoin"
+  },
+  "BCN": {
+    "id": "5280",
+    "Url": "/coins/bcn/overview",
+    "img": "/media/12318404/bcn.png",
+    "Name": "BCN",
+    "CoinName": "ByteCoin"
+  },
+  "XEM": {
+    "id": "5285",
+    "Url": "/coins/xem/overview",
+    "img": "/media/20490/xem.png",
+    "Name": "XEM",
+    "CoinName": "NEM"
+  },
+  "RDN": {
+    "id": "6098",
+    "Url": "/coins/rdn/overview",
+    "img": "/media/19808/mrs.png",
+    "Name": "RDN",
+    "CoinName": "RadonPay"
+  },
+  "NXS": {
+    "id": "6103",
+    "Url": "/coins/nxs/overview",
+    "img": "/media/1382387/nexus.jpg",
+    "Name": "NXS",
+    "CoinName": "Nexus"
+  },
+  "POLY": {
+    "id": "7567",
+    "Url": "/coins/poly/overview",
+    "img": "/media/20631/poly.png",
+    "Name": "POLY",
+    "CoinName": "PolyBit"
+  },
+  "GRS": {
+    "id": "13070",
+    "Url": "/coins/grs/overview",
+    "img": "/media/20780736/grs.png",
+    "Name": "GRS",
+    "CoinName": "Groestlcoin "
+  },
+  "SC": {
+    "id": "13072",
+    "Url": "/coins/sc/overview",
+    "img": "/media/20726/siacon-logo.png",
+    "Name": "SC",
+    "CoinName": "Siacoin"
+  },
+  "REP": {
+    "id": "17778",
+    "Url": "/coins/rep/overview",
+    "img": "/media/350815/augur-logo.png",
+    "Name": "REP",
+    "CoinName": "Augur"
+  },
+  "DGD": {
+    "id": "18907",
+    "Url": "/coins/dgd/overview",
+    "img": "/media/350851/dgd.png",
+    "Name": "DGD",
+    "CoinName": "Digix DAO"
+  },
+  "LSK": {
+    "id": "19745",
+    "Url": "/coins/lsk/overview",
+    "img": "/media/27011060/lsk.png",
+    "Name": "LSK",
+    "CoinName": "Lisk"
+  },
+  "WAVES": {
+    "id": "20131",
+    "Url": "/coins/waves/overview",
+    "img": "/media/27010639/waves2.png",
+    "Name": "WAVES",
+    "CoinName": "Waves"
+  },
+  "STEEM": {
+    "id": "20333",
+    "Url": "/coins/steem/overview",
+    "img": "/media/350907/steem.png",
+    "Name": "STEEM",
+    "CoinName": "Steem"
+  },
+  "BNT": {
+    "id": "22327",
+    "Url": "/coins/bnt/overview",
+    "img": "/media/1383549/bnt.jpg",
+    "Name": "BNT",
+    "CoinName": "Bancor Network Token"
+  },
+  "CMT": {
+    "id": "22354",
+    "Url": "/coins/cmt/overview",
+    "img": "/media/351090/cmt.png",
+    "Name": "CMT",
+    "CoinName": "CometCoin"
+  },
+  "STRAT": {
+    "id": "24294",
+    "Url": "/coins/strat/overview",
+    "img": "/media/351303/stratis-logo.png",
+    "Name": "STRAT",
+    "CoinName": "Stratis"
+  },
+  "SNGLS": {
+    "id": "24926",
+    "Url": "/coins/sngls/overview",
+    "img": "/media/351368/sngls.png",
+    "Name": "SNGLS",
+    "CoinName": "SingularDTV"
+  },
+  "ICN": {
+    "id": "25921",
+    "Url": "/coins/icn/overview",
+    "img": "/media/351400/icn.png",
+    "Name": "ICN",
+    "CoinName": "Iconomi"
+  },
+  "WINGS": {
+    "id": "25946",
+    "Url": "/coins/wings/overview",
+    "img": "/media/1382758/1wings.png",
+    "Name": "WINGS",
+    "CoinName": "Wings DAO"
+  },
+  "KMD": {
+    "id": "26132",
+    "Url": "/coins/kmd/overview",
+    "img": "/media/351408/kmd.png",
+    "Name": "KMD",
+    "CoinName": "Komodo"
+  },
+  "NEO": {
+    "id": "27368",
+    "Url": "/coins/neo/overview",
+    "img": "/media/1383858/neo.jpg",
+    "Name": "NEO",
+    "CoinName": "NEO"
+  },
+  "TRIG": {
+    "id": "27996",
+    "Url": "/coins/trig/overview",
+    "img": "/media/351489/trg.png",
+    "Name": "TRIG",
+    "CoinName": "Trigger"
+  },
+  "XZC": {
+    "id": "30022",
+    "Url": "/coins/xzc/overview",
+    "img": "/media/1382780/xzc1.png",
+    "Name": "XZC",
+    "CoinName": "ZCoin"
+  },
+  "ARDR": {
+    "id": "30173",
+    "Url": "/coins/ardr/overview",
+    "img": "/media/351736/ardr.png",
+    "Name": "ARDR",
+    "CoinName": "Ardor"
+  },
+  "ARK": {
+    "id": "32699",
+    "Url": "/coins/ark/overview",
+    "img": "/media/351931/ark.png",
+    "Name": "ARK",
+    "CoinName": "ARK"
+  },
+  "GNT": {
+    "id": "33022",
+    "Url": "/coins/gnt/overview",
+    "img": "/media/351995/golem_logo.png",
+    "Name": "GNT",
+    "CoinName": "Golem Network Token"
+  },
+  "PIVX": {
+    "id": "42433",
+    "Url": "/coins/pivx/overview",
+    "img": "/media/1382389/pivx.png",
+    "Name": "PIVX",
+    "CoinName": "Private Instant Verified Transaction"
+  },
+  "CHAT": {
+    "id": "52008",
+    "Url": "/coins/chat/overview",
+    "img": "/media/34478301/logo_132_132_chat.png",
+    "Name": "CHAT",
+    "CoinName": "OpenChat"
+  },
+  "RLC": {
+    "id": "61877",
+    "Url": "/coins/rlc/overview",
+    "img": "/media/12318418/rlc.png",
+    "Name": "RLC",
+    "CoinName": "iEx.ec"
+  },
+  "LUN": {
+    "id": "67447",
+    "Url": "/coins/lun/overview",
+    "img": "/media/1383112/lunyr-logo.png",
+    "Name": "LUN",
+    "CoinName": "Lunyr"
+  },
+  "BAT": {
+    "id": "107672",
+    "Url": "/coins/bat/overview",
+    "img": "/media/1383370/bat.png",
+    "Name": "BAT",
+    "CoinName": "Basic Attention Token"
+  },
+  "QTUM": {
+    "id": "112392",
+    "Url": "/coins/qtum/overview",
+    "img": "/media/1383382/qtum.png",
+    "Name": "QTUM",
+    "CoinName": "QTUM"
+  },
+  "ZEN": {
+    "id": "116180",
+    "Url": "/coins/zen/overview",
+    "img": "/media/25792624/zen.png",
+    "Name": "ZEN",
+    "CoinName": "ZenCash"
+  },
+  "SNM": {
+    "id": "136244",
+    "Url": "/coins/snm/overview",
+    "img": "/media/1383564/snm.png",
+    "Name": "SNM",
+    "CoinName": "SONM"
+  },
+  "SKY": {
+    "id": "136269",
+    "Url": "/coins/sky/overview",
+    "img": "/media/30001806/sky.png",
+    "Name": "SKY",
+    "CoinName": "Skycoin"
+  },
+  "SNT": {
+    "id": "137013",
+    "Url": "/coins/snt/overview",
+    "img": "/media/1383568/snt.png",
+    "Name": "SNT",
+    "CoinName": "Status Network Token"
+  },
+  "CVC": {
+    "id": "139467",
+    "Url": "/coins/cvc/overview",
+    "img": "/media/1383611/cvc.png",
+    "Name": "CVC",
+    "CoinName": "Civic"
+  },
+  "DENT": {
+    "id": "141331",
+    "Url": "/coins/dent/overview",
+    "img": "/media/1383613/dent.png",
+    "Name": "DENT",
+    "CoinName": "Dent"
+  },
+  "MCO": {
+    "id": "166548",
+    "Url": "/coins/mco/overview",
+    "img": "/media/1383653/mco.jpg",
+    "Name": "MCO",
+    "CoinName": "MCO"
+  },
+  "ADX": {
+    "id": "170452",
+    "Url": "/coins/adx/overview",
+    "img": "/media/1383667/adx1.png",
+    "Name": "ADX",
+    "CoinName": "AdEx"
+  },
+  "NANO": {
+    "id": "172091",
+    "Url": "/coins/nano/overview",
+    "img": "/media/30001997/untitled-1.png",
+    "Name": "NANO",
+    "CoinName": "Nano"
+  },
+  "CDT": {
+    "id": "177139",
+    "Url": "/coins/cdt/overview",
+    "img": "/media/1383699/cdt.png",
+    "Name": "CDT",
+    "CoinName": "Blox"
+  },
+  "DNT": {
+    "id": "177175",
+    "Url": "/coins/dnt/overview",
+    "img": "/media/1383701/dnt.png",
+    "Name": "DNT",
+    "CoinName": "district0x"
+  },
+  "FUN": {
+    "id": "178978",
+    "Url": "/coins/fun/overview",
+    "img": "/media/1383738/fun.png",
+    "Name": "FUN",
+    "CoinName": "FunFair"
+  },
+  "MTL": {
+    "id": "179164",
+    "Url": "/coins/mtl/overview",
+    "img": "/media/1383743/mtl.png",
+    "Name": "MTL",
+    "CoinName": "Metal"
+  },
+  "PPT": {
+    "id": "179896",
+    "Url": "/coins/ppt/overview",
+    "img": "/media/1383747/ppt.png",
+    "Name": "PPT",
+    "CoinName": "Populous"
+  },
+  "OAX": {
+    "id": "180013",
+    "Url": "/coins/oax/overview",
+    "img": "/media/1383756/oax.png",
+    "Name": "OAX",
+    "CoinName": "OpenANX"
+  },
+  "ZRX": {
+    "id": "186277",
+    "Url": "/coins/zrx/overview",
+    "img": "/media/1383799/zrx.png",
+    "Name": "ZRX",
+    "CoinName": "0x"
+  },
+  "TNT": {
+    "id": "186309",
+    "Url": "/coins/tnt/overview",
+    "img": "/media/1383800/tnt.png",
+    "Name": "TNT",
+    "CoinName": "Tierion"
+  },
+  "STORM": {
+    "id": "186875",
+    "Url": "/coins/storm/overview",
+    "img": "/media/1383803/storm.jpg",
+    "Name": "STORM",
+    "CoinName": "Storm"
+  },
+  "STORJ": {
+    "id": "187347",
+    "Url": "/coins/storj/overview",
+    "img": "/media/20422/sjcx.png",
+    "Name": "STORJ",
+    "CoinName": "Storj"
+  },
+  "OMG": {
+    "id": "187440",
+    "Url": "/coins/omg/overview",
+    "img": "/media/1383814/omisego.png",
+    "Name": "OMG",
+    "CoinName": "OmiseGo"
+  },
+  "POE": {
+    "id": "188811",
+    "Url": "/coins/poe/overview",
+    "img": "/media/1383828/poe.png",
+    "Name": "POE",
+    "CoinName": "Po.et"
+  },
+  "AE": {
+    "id": "190978",
+    "Url": "/coins/ae/overview",
+    "img": "/media/1383836/ae.png",
+    "Name": "AE",
+    "CoinName": "Aeternity"
+  },
+  "VIB": {
+    "id": "198710",
+    "Url": "/coins/vib/overview",
+    "img": "/media/1383893/vib.png",
+    "Name": "VIB",
+    "CoinName": "Viberate"
+  },
+  "MANA": {
+    "id": "199148",
+    "Url": "/coins/mana/overview",
+    "img": "/media/1383903/mana.png",
+    "Name": "MANA",
+    "CoinName": "Decentraland"
+  },
+  "BNB": {
+    "id": "204788",
+    "Url": "/coins/bnb/overview",
+    "img": "/media/1383947/bnb.png",
+    "Name": "BNB",
+    "CoinName": "Binance Coin"
+  },
+  "MTH": {
+    "id": "208914",
+    "Url": "/coins/mth/overview",
+    "img": "/media/1383976/mth.png",
+    "Name": "MTH",
+    "CoinName": "Monetha"
+  },
+  "GAS": {
+    "id": "213532",
+    "Url": "/coins/gas/overview",
+    "img": "/media/1383858/neo.jpg",
+    "Name": "GAS",
+    "CoinName": "Gas"
+  },
+  "DLT": {
+    "id": "220204",
+    "Url": "/coins/dlt/overview",
+    "img": "/media/1384001/delta.png",
+    "Name": "DLT",
+    "CoinName": "Agrello Delta"
+  },
+  "SUB": {
+    "id": "221463",
+    "Url": "/coins/sub/overview",
+    "img": "/media/1384011/sub1.png",
+    "Name": "SUB",
+    "CoinName": "Substratum Network"
+  },
+  "NEBL": {
+    "id": "222085",
+    "Url": "/coins/nebl/overview",
+    "img": "/media/1384016/nebl.png",
+    "Name": "NEBL",
+    "CoinName": "Neblio"
+  },
+  "EVX": {
+    "id": "194883",
+    "Url": "/coins/evx/overview",
+    "img": "/media/1383850/evx.png",
+    "Name": "EVX",
+    "CoinName": "Everex"
+  },
+  "VET": {
+    "id": "236131",
+    "Url": "/coins/vet/overview",
+    "img": "/media/12318129/ven.png",
+    "Name": "VET",
+    "CoinName": "Vechain"
+  },
+  "AMB": {
+    "id": "238733",
+    "Url": "/coins/amb/overview",
+    "img": "/media/9350739/amb.png",
+    "Name": "AMB",
+    "CoinName": "Ambrosus"
+  },
+  "WAN": {
+    "id": "240142",
+    "Url": "/coins/wan/overview",
+    "img": "/media/9350742/wan.jpg",
+    "Name": "WAN",
+    "CoinName": "Wanchain"
+  },
+  "ENJ": {
+    "id": "283116",
+    "Url": "/coins/enj/overview",
+    "img": "/media/11417639/enjt.png",
+    "Name": "ENJ",
+    "CoinName": "Enjin Coin"
+  },
+  "FUEL": {
+    "id": "292748",
+    "Url": "/coins/fuel/overview",
+    "img": "/media/11999072/fuel.png",
+    "Name": "FUEL",
+    "CoinName": "Etherparty"
+  },
+  "WTC": {
+    "id": "299397",
+    "Url": "/coins/wtc/overview",
+    "img": "/media/12317959/wtc.png",
+    "Name": "WTC",
+    "CoinName": "Waltonchain"
+  },
+  "RCN": {
+    "id": "307219",
+    "Url": "/coins/rcn/overview",
+    "img": "/media/12318046/rnc.png",
+    "Name": "RCN",
+    "CoinName": "Ripio"
+  },
+  "LINK": {
+    "id": "309621",
+    "Url": "/coins/link/overview",
+    "img": "/media/12318078/link.png",
+    "Name": "LINK",
+    "CoinName": "ChainLink"
+  },
+  "EDO": {
+    "id": "310297",
+    "Url": "/coins/edo/overview",
+    "img": "/media/12318082/eiboo.png",
+    "Name": "EDO",
+    "CoinName": "Eidoo"
+  },
+  "KNC": {
+    "id": "310497",
+    "Url": "/coins/knc/overview",
+    "img": "/media/12318084/knc.png",
+    "Name": "KNC",
+    "CoinName": "Kyber Network"
+  },
+  "TRX": {
+    "id": "310829",
+    "Url": "/coins/trx/overview",
+    "img": "/media/34477805/trx.jpg",
+    "Name": "TRX",
+    "CoinName": "Tronix"
+  },
+  "SALT": {
+    "id": "314580",
+    "Url": "/coins/salt/overview",
+    "img": "/media/9350744/salt.jpg",
+    "Name": "SALT",
+    "CoinName": "Salt Lending"
+  },
+  "LRC": {
+    "id": "318169",
+    "Url": "/coins/lrc/overview",
+    "img": "/media/12318135/lrc.png",
+    "Name": "LRC",
+    "CoinName": "Loopring"
+  },
+  "ADA": {
+    "id": "321992",
+    "Url": "/coins/ada/overview",
+    "img": "/media/12318177/ada.png",
+    "Name": "ADA",
+    "CoinName": "Cardano"
+  },
+  "ICX": {
+    "id": "324068",
+    "Url": "/coins/icx/overview",
+    "img": "/media/12318192/icx.png",
+    "Name": "ICX",
+    "CoinName": "ICON Project"
+  },
+  "REQ": {
+    "id": "335059",
+    "Url": "/coins/req/overview",
+    "img": "/media/12318260/req.png",
+    "Name": "REQ",
+    "CoinName": "Request Network"
+  },
+  "ARN": {
+    "id": "335127",
+    "Url": "/coins/arn/overview",
+    "img": "/media/12318261/arn.png",
+    "Name": "ARN",
+    "CoinName": "Aeron"
+  },
+  "VIBE": {
+    "id": "336538",
+    "Url": "/coins/vibe/overview",
+    "img": "/media/12318267/vibe.png",
+    "Name": "VIBE",
+    "CoinName": "VIBEHub"
+  },
+  "AST": {
+    "id": "337162",
+    "Url": "/coins/ast/overview",
+    "img": "/media/12318279/ast.png",
+    "Name": "AST",
+    "CoinName": "AirSwap"
+  },
+  "CND": {
+    "id": "338070",
+    "Url": "/coins/cnd/overview",
+    "img": "/media/12318283/cnd.png",
+    "Name": "CND",
+    "CoinName": "Cindicator"
+  },
+  "ENG": {
+    "id": "338335",
+    "Url": "/coins/eng/overview",
+    "img": "/media/12318287/eng.png",
+    "Name": "ENG",
+    "CoinName": "Enigma"
+  },
+  "POWR": {
+    "id": "339617",
+    "Url": "/coins/powr/overview",
+    "img": "/media/12318301/powr.png",
+    "Name": "POWR",
+    "CoinName": "Power Ledger"
+  },
+  "WABI": {
+    "id": "340940",
+    "Url": "/coins/wabi/overview",
+    "img": "/media/12318331/wabi.png",
+    "Name": "WABI",
+    "CoinName": "WaBi"
+  },
+  "PHX": {
+    "id": "341267",
+    "Url": "/coins/phx/overview",
+    "img": "/media/34478203/phx.png",
+    "Name": "PHX",
+    "CoinName": "Red Pulse Phoenix"
+  },
+  "MDA": {
+    "id": "341279",
+    "Url": "/coins/mda/overview",
+    "img": "/media/12318340/mda.png",
+    "Name": "MDA",
+    "CoinName": "Moeda"
+  },
+  "MOD": {
+    "id": "345510",
+    "Url": "/coins/mod/overview",
+    "img": "/media/12318362/mod.png",
+    "Name": "MOD",
+    "CoinName": "Modum"
+  },
+  "APPC": {
+    "id": "346812",
+    "Url": "/coins/appc/overview",
+    "img": "/media/12318370/app.png",
+    "Name": "APPC",
+    "CoinName": "AppCoins"
+  },
+  "BTG": {
+    "id": "347235",
+    "Url": "/coins/btg/overview",
+    "img": "/media/27011062/btg.png",
+    "Name": "BTG",
+    "CoinName": "Bitcoin Gold"
+  },
+  "WPR": {
+    "id": "355242",
+    "Url": "/coins/wpr/overview",
+    "img": "/media/14543969/wpr.png",
+    "Name": "WPR",
+    "CoinName": "WePower"
+  },
+  "KEY": {
+    "id": "360299",
+    "Url": "/coins/key/overview",
+    "img": "/media/14761912/key.png",
+    "Name": "KEY",
+    "CoinName": "SelfKey"
+  },
+  "OST": {
+    "id": "369132",
+    "Url": "/coins/ost/overview",
+    "img": "/media/14913437/st.png",
+    "Name": "OST",
+    "CoinName": "Simple Token"
+  },
+  "DATA": {
+    "id": "369151",
+    "Url": "/coins/data/overview",
+    "img": "/media/30002338/data.png",
+    "Name": "DATA",
+    "CoinName": "Streamr DATAcoin"
+  },
+  "INS": {
+    "id": "370973",
+    "Url": "/coins/ins/overview",
+    "img": "/media/14913458/ins.png",
+    "Name": "INS",
+    "CoinName": "INS Ecosystem"
+  },
+  "BCPT": {
+    "id": "374281",
+    "Url": "/coins/bcpt/overview",
+    "img": "/media/16746476/bcpt.png",
+    "Name": "BCPT",
+    "CoinName": "BlockMason Credit Protocol"
+  },
+  "NULS": {
+    "id": "377792",
+    "Url": "/coins/nuls/overview",
+    "img": "/media/14913548/nuls.png",
+    "Name": "NULS",
+    "CoinName": "Nuls"
+  },
+  "GVT": {
+    "id": "385952",
+    "Url": "/coins/gvt/overview",
+    "img": "/media/14913634/gvt.png",
+    "Name": "GVT",
+    "CoinName": "Genesis Vision"
+  },
+  "QSP": {
+    "id": "397757",
+    "Url": "/coins/qsp/overview",
+    "img": "/media/15887408/qsp.png",
+    "Name": "QSP",
+    "CoinName": "Quantstamp"
+  },
+  "BCD": {
+    "id": "409492",
+    "Url": "/coins/bcd/overview",
+    "img": "/media/16404872/bcd.png",
+    "Name": "BCD",
+    "CoinName": "Bitcoin Diamond"
+  },
+  "LEND": {
+    "id": "418778",
+    "Url": "/coins/lend/overview",
+    "img": "/media/16746444/lend.png",
+    "Name": "LEND",
+    "CoinName": "EthLend"
+  },
+  "AION": {
+    "id": "431235",
+    "Url": "/coins/aion/overview",
+    "img": "/media/16746538/aion.png",
+    "Name": "AION",
+    "CoinName": "Aion"
+  },
+  "GTO": {
+    "id": "517477",
+    "Url": "/coins/gto/overview",
+    "img": "/media/16746671/gto.png",
+    "Name": "GTO",
+    "CoinName": "GIFTO"
+  },
+  "TNB": {
+    "id": "517483",
+    "Url": "/coins/tnb/overview",
+    "img": "/media/16746672/tnb.png",
+    "Name": "TNB",
+    "CoinName": "Time New Bank"
+  },
+  "BRD": {
+    "id": "543502",
+    "Url": "/coins/brd/overview",
+    "img": "/media/20780589/brd.png",
+    "Name": "BRD",
+    "CoinName": "Bread token"
+  },
+  "ELF": {
+    "id": "571314",
+    "Url": "/coins/elf/overview",
+    "img": "/media/20780600/elf.png",
+    "Name": "ELF",
+    "CoinName": "aelf"
+  },
+  "NAS": {
+    "id": "619555",
+    "Url": "/coins/nas/overview",
+    "img": "/media/20780653/nas.png",
+    "Name": "NAS",
+    "CoinName": "Nebulas"
+  },
+  "QLC": {
+    "id": "637681",
+    "Url": "/coins/qlc/overview",
+    "img": "/media/20780665/qlc.png",
+    "Name": "QLC",
+    "CoinName": "QLC Chain"
+  },
+  "GXS": {
+    "id": "659770",
+    "Url": "/coins/gxs/overview",
+    "img": "/media/20780746/gxs.png",
+    "Name": "GXS",
+    "CoinName": "GXChain"
+  },
+  "AGI": {
+    "id": "710156",
+    "Url": "/coins/agi/overview",
+    "img": "/media/25792653/agi.png",
+    "Name": "AGI",
+    "CoinName": "SingularityNET"
+  },
+  "THETA": {
+    "id": "714811",
+    "Url": "/coins/theta/overview",
+    "img": "/media/27010450/theta.png",
+    "Name": "THETA",
+    "CoinName": "Theta"
+  },
+  "IOST": {
+    "id": "716522",
+    "Url": "/coins/iost/overview",
+    "img": "/media/27010459/iost.png",
+    "Name": "IOST",
+    "CoinName": "IOS token"
+  },
+  "ZIL": {
+    "id": "716725",
+    "Url": "/coins/zil/overview",
+    "img": "/media/27010464/zil.png",
+    "Name": "ZIL",
+    "CoinName": "Zilliqa"
+  },
+  "NPXS": {
+    "id": "731516",
+    "Url": "/coins/npxs/overview",
+    "img": "/media/27010505/pxs.png",
+    "Name": "NPXS",
+    "CoinName": "Pundi X"
+  },
+  "BLZ": {
+    "id": "752710",
+    "Url": "/coins/blz/overview",
+    "img": "/media/27010607/1.png",
+    "Name": "BLZ",
+    "CoinName": "Bluzelle"
+  },
+  "NCASH": {
+    "id": "792548",
+    "Url": "/coins/ncash/overview",
+    "img": "/media/27010960/untitled-1.png",
+    "Name": "NCASH",
+    "CoinName": "Nucleus Vision"
+  },
+  "POA": {
+    "id": "793845",
+    "Url": "/coins/poa/overview",
+    "img": "/media/27010991/poa.png",
+    "Name": "POA",
+    "CoinName": "Poa Network"
+  },
+  "LOOM": {
+    "id": "836492",
+    "Url": "/coins/loom/overview",
+    "img": "/media/30001890/untitled-1.png",
+    "Name": "LOOM",
+    "CoinName": "Loom Network"
+  },
+  "GO": {
+    "id": "838328",
+    "Url": "/coins/go/overview",
+    "img": "/media/30001914/goc.png",
+    "Name": "GO",
+    "CoinName": "GoChain"
+  },
+  "TUSD": {
+    "id": "844139",
+    "Url": "/coins/tusd/overview",
+    "img": "/media/30001972/tusd.png",
+    "Name": "TUSD",
+    "CoinName": "True USD"
+  },
+  "DOCK": {
+    "id": "866363",
+    "Url": "/coins/dock/overview",
+    "img": "/media/30002275/dock.png",
+    "Name": "DOCK",
+    "CoinName": "Dock.io"
+  },
+  "HOT": {
+    "id": "890645",
+    "Url": "/coins/hot/overview",
+    "img": "/media/33187896/hot.png",
+    "Name": "HOT",
+    "CoinName": "Hydro Protocol"
+  },
+  "IOTX": {
+    "id": "893122",
+    "Url": "/coins/iotx/overview",
+    "img": "/media/33187927/rsz_njsdvvpv_400x400.jpg",
+    "Name": "IOTX",
+    "CoinName": "IoTeX Network"
+  },
+  "QKC": {
+    "id": "899553",
+    "Url": "/coins/qkc/overview",
+    "img": "/media/33434307/qkc.jpg",
+    "Name": "QKC",
+    "CoinName": "QuarkChain"
+  },
+  "MFT": {
+    "id": "917211",
+    "Url": "/coins/mft/overview",
+    "img": "/media/34333427/mft.jpg",
+    "Name": "MFT",
+    "CoinName": "Mainframe"
+  },
+  "ONT": {
+    "id": "808414",
+    "Url": "/coins/ont/overview",
+    "img": "/media/30001663/ont.jpg",
+    "Name": "ONT",
+    "CoinName": "Ontology"
+  },
+  "ETC": {
+    "id": "5324",
+    "Url": "/coins/etc/overview",
+    "img": "/media/33752295/etc_new.png",
+    "Name": "ETC",
+    "CoinName": "Ethereum Classic"
+  },
+  "BTC": {
+    "id": "1182",
+    "Url": "/coins/btc/overview",
+    "img": "/media/19633/btc.png",
+    "Name": "BTC",
+    "CoinName": "Bitcoin"
+  },
+  "EOS": {
+    "id": "166503",
+    "Url": "/coins/eos/overview",
+    "img": "/media/1383652/eos_1.png",
+    "Name": "EOS",
+    "CoinName": "EOS"
+  }
+}
