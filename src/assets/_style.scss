@@ -108,16 +108,21 @@ button:focus {
     margin-left: 10px;
   }
 }
-.board {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 60px 15px 15px;
-  overflow-x: hidden;
-}
 
+.board {
+  padding-top:60px;
+  max-width: 1650px;
+  margin: 0 auto 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-gap: 10px;
+  .card-block {
+    display: flex;
+    justify-content: center;
+  }
+}
 .coin-box{
   position: relative;
-  margin: .5rem;
   width: 390px;
   height: 200px;
   background: #fff;
@@ -284,7 +289,7 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 500;
+  z-index: 4;
   opacity: .6;
   background-color: white;
 }
@@ -497,15 +502,15 @@ button:focus {
   .add-btn{
     margin: 5px;
   }
-  .board {
-    padding: 60px 0px 0px;
-    justify-content: center;
-  }
+
   .coin-info {
     padding: 10px 15px 5px 10px;
   }
   .coin-box {
     width: 346px;
+  }
+  .board {
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
   }
   .coin-name {
     font-size: 19px;

@@ -6,6 +6,20 @@ A Cryptocurrency Dashboard build with Vue JS, Binance Websocket API for realtime
 
 <img width="500" alt="portfolio_view" src="https://user-images.githubusercontent.com/36194663/47360137-3edb8580-d6ec-11e8-8cb9-88b632328e38.png">
  
+## Tech Stacks
+
+- [Vue CLI 3](https://github.com/vuejs/vue-cli)
+- [Vue](http://vuejs.org/)
+- [Vuex](https://github.com/vuejs/vuex)
+- [Vue Router](https://github.com/vuejs/vue-router)
+- [Sass](http://sass-lang.com/)
+- [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+- [Binance Websocket Stream](https://github.com/binance-exchange/binance-official-api-docs/blob/master/web-socket-streams.md)
+- [amcharts](https://www.amcharts.com/)
+- [Cryptocompare News Api](https://min-api.cryptocompare.com/)
+- [Custom sparkline chart](https://github.com/JayeshLab/vue-crypto-dashboard/blob/master/src/components/Sparkline.vue)
+- [Custom Binance Websocket Api](https://github.com/JayeshLab/vue-crypto-dashboard/blob/master/src/services/api.js)
+
 
 ## Prerequisites:
 
