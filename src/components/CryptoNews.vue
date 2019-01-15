@@ -24,14 +24,12 @@
   import timeago from 'timeago.js';
   export default {
     created() {
-      console.log('created');
       this.getNews();
       this.interval = setInterval(function() {
         this.getNews();
       }.bind(this), 120000)
     },
     beforeDestroy(){
-      console.log('beforeDestroy');
       clearInterval(this.interval);
     },
     data() {
