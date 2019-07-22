@@ -1,5 +1,6 @@
 import Api from './api'
 import store from '../store'
+
 const wsApi = new Api();
 
 const subscribeSymbol = function(symbol) {

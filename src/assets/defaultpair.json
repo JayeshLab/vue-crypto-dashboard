@@ -1,10 +1,10 @@
-{
-  "BTCUSDT":{"symbol":"BTCUSDT","base":"BTC","quote":"USDT","name":"Bitcoin"},
-  "ETHUSDT":{"symbol":"ETHUSDT","base":"ETH","quote":"USDT","name":"Ethereum"},
-  "XRPUSDT":{"symbol":"XRPUSDT","base":"XRP","quote":"USDT","name":"XRP"},
-  "ETHBTC":{"symbol":"ETHBTC","base":"ETH","quote":"BTC","name":"Ethereum"},
-  "MDABTC":{"symbol":"MDABTC","base":"MDA","quote":"BTC","name":"Moeda"},
-  "EOSBTC":{"symbol":"EOSBTC","base":"EOS","quote":"BTC","name":"EOS"},
-  "MDAETH":{"symbol":"MDAETH","base":"MDA","quote":"ETH","name":"Moeda"},
-  "TRXETH":{"symbol":"TRXETH","base":"TRX","quote":"ETH","name":"Tronix"}
-}
+[
+  {"symbol":"BTCUSDT","base":"BTC","quote":"USDT","name":"Bitcoin"},
+  {"symbol":"ETHUSDT","base":"ETH","quote":"USDT","name":"Ethereum"},
+  {"symbol":"XRPUSDT","base":"XRP","quote":"USDT","name":"XRP"},
+  {"symbol":"ETHBTC","base":"ETH","quote":"BTC","name":"Ethereum"},
+  {"symbol":"MDABTC","base":"MDA","quote":"BTC","name":"Moeda"},
+  {"symbol":"EOSBTC","base":"EOS","quote":"BTC","name":"EOS"},
+  {"symbol":"MDAETH","base":"MDA","quote":"ETH","name":"Moeda"},
+  {"symbol":"TRXETH","base":"TRX","quote":"ETH","name":"Tronix"}
+]

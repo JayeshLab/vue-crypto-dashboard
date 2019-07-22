@@ -90,6 +90,10 @@ button:focus {
   width: 100%;
   margin-top: -10px;
 }
+.v-select .dropdown-menu{
+  min-width: 100px !important;
+  overflow-y: auto !important;
+}
 .menu-bar {
   position: fixed;
   display: flex;
@@ -101,7 +105,7 @@ button:focus {
   background-color: #333;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.42);
   #base {
-    width: 230px;
+    width: 342px;
   }
   #quote {
     width: 100px;
@@ -492,8 +496,12 @@ button:focus {
   }
   .menu-bar {
     padding: 0 5px;
+    font-size: 12px;
     #quote {
       margin-left: 5px;
+    }
+    #base {
+      width: 230px;
     }
   }
   .slash{

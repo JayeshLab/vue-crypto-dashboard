@@ -1,7 +1,7 @@
 <template>
   <div class="board">
-    <div class="card-block" v-for="(value, key) in tickers" :key="key">
-      <CurrencyCard :ticker="value" :info="currencies[key]"></CurrencyCard>
+    <div class="card-block" v-for="(value, index) in currencies" :key="index">
+      <CurrencyCard :ticker="tickers[value.symbol] || {}" :info="value"></CurrencyCard>
     </div>
   </div>
 </template>

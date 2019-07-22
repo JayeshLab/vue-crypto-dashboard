@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.14a0c969be51fbfa3b5db094ea79b3d3.js"
+  "/vue-crypto-dashboard/precache-manifest.74640a257ebc0242e5ba6ef7fe92ce33.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-crypto-dashboard"});

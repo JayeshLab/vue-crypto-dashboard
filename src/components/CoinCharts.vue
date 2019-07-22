@@ -230,6 +230,7 @@
       },
       fetchChartData(isUpdate = false) {
         this.chartLoading = true
+        //proxyuUrl is done to avoid cross-origin error as it is directly called from javascript.
         fetch(`${proxyUrl}https://api.binance.com/api/v1/klines?symbol=${this.symbol}&interval=${this.interval}`).then(
           function (response) {
             if (response.status !== 200) {
@@ -248,7 +249,6 @@
                   "value": parseFloat(val[4])
                 }
               })
-              console.log(this.chartData)
               if (isUpdate) {
                 this.chart.dataSets[0].dataProvider = this.chartData;
                 this.chart.validateData()

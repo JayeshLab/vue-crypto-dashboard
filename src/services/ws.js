@@ -1,5 +1,5 @@
 function noop() {}
-
+//Websocket Wrapper API with reconnection option
 export default function (url, opts) {
   opts = opts || {};
 

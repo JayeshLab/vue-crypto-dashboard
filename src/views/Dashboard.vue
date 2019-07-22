@@ -3,7 +3,7 @@
         <div class="menu-bar">
             <v-select id="base" :options="currencyList[quote]" :clearable="false" v-model="baseCurrency" placeholder="Select Token"></v-select>
             <span class="slash">/</span>
-            <v-select id="quote" :options="quoteOptions" :searchable="false" :clearable="false" v-model="quote" @input="resetBase"></v-select>
+            <v-select id="quote" :options="quoteOptions" :searchable="false" :clearable="false" v-model="quote" @input="resetBase" style="width: 100px"></v-select>
             <button class="add-btn" @click="addCoinPair"><i class="fa fa-plus fa-lg" aria-hidden="true"></i></button>
         </div>
         <CryptoBoard></CryptoBoard>
@@ -28,9 +28,9 @@
     },
     mounted(){
       if(this.currencies) {
-        for (let currency in this.currencies) {
-          subscribeSymbol(currency)
-        }
+        this.currencies.forEach(currency => {
+          subscribeSymbol(currency.symbol);
+        });
       }
     },
     computed: {

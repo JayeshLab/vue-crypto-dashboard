@@ -1,6 +1,6 @@
 <template>
     <div class="coin-box" @dblclick.stop="openDetails">
-        <div class="row no-gutters coin-info" v-if="ticker.price">
+        <div class="row no-gutters coin-info">
             <div class="col-7">
                 <div class="font-weight-bold">{{info.name}}</div>
                 <div class="row no-gutters mt-1">
@@ -9,11 +9,11 @@
                     </div>
                     <div class="col text-left">
                         <div><b>{{info.base}}</b>/{{info.quote}}</div>
-                        <div class="coin-price">{{ticker.price }}<span style="font-size: x-small; font-weight: 700; padding-left: 3px;">{{info.quote}}</span></div>
+                        <div class="coin-price" v-if="ticker.price">{{ticker.price || '' }}<span style="font-size: x-small; font-weight: 700; padding-left: 3px;">{{info.quote}}</span></div>
                     </div>
                 </div>
             </div>
-            <div :class="[(ticker.percent < 0)?'down':'up', 'col-5','text-right']">
+            <div :class="[(ticker.percent < 0)?'down':'up', 'col-5','text-right']" v-if="ticker.price">
                 <div class="coin-per"><span class="indicator"></span><span>{{ ticker.percent }}%</span></div>
                 <div class="coin-chg">{{parseFloat(ticker.chg).toFixed((info.quote === 'USDT') ? 3 : 8)}} </div>
                 <div><span class="text-secondary">Vol:</span> <span class="text-dark">{{ ticker.vol }}</span></div>
@@ -28,7 +28,7 @@
                 </div>
             </div>
         </div>
-        <div class="sparkline-chart">
+        <div class="sparkline-chart" v-if="ticker.price">
             <Sparkline :cdata="ticker.price" :width="380" :height="90"></Sparkline>
         </div>
     </div>
