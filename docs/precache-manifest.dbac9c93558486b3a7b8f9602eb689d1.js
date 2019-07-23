@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/vue-crypto-dashboard/js/chunk-6f3e5ba8.js"
   },
   {
-    "revision": "059a0a854dc9b56000a6",
+    "revision": "164abc25e656e9d6d52e",
     "url": "/vue-crypto-dashboard/js/app.js"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/vue-crypto-dashboard/fonts/fontawesome-webfont.eot"
   },
   {
-    "revision": "059a0a854dc9b56000a6",
+    "revision": "164abc25e656e9d6d52e",
     "url": "/vue-crypto-dashboard/css/app.css"
   }
 ];
