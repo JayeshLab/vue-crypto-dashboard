@@ -24,9 +24,7 @@ const unSubscribeSymbol = function(symbol) {
 };
 
 const subscribeChart = function(symbol, interval) {
-  wsApi.onKline(symbol, interval, (data) => {
-    console.log(data)
-  })
+  wsApi.onKline(symbol, interval, () => {})
 };
 const unSubscribeChart = function(symbol, interval) {
   wsApi.closeSubscription('kline',false, symbol, interval)

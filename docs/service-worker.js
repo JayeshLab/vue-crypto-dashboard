@@ -11,10 +11,10 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.4.1/workbox-sw.js");
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vue-crypto-dashboard/precache-manifest.dbac9c93558486b3a7b8f9602eb689d1.js"
+  "/vue-crypto-dashboard/precache-manifest.c304e8191d560d26fe6025804d76aa55.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-crypto-dashboard"});
