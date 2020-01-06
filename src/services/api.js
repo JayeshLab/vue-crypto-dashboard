@@ -55,7 +55,7 @@ export default class Api {
     const path = (isCombined ? this._combinedBaseUrl : this._baseUrl) + endpoint;
     const ws = this.subscription[path];
     if(ws) {
-      ws.close();
+      ws.close(1000, "");
     }
   }
   closeAll() {
