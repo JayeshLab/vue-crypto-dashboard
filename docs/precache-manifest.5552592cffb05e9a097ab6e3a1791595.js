@@ -4,31 +4,31 @@ self.__precacheManifest = [
     "url": "/vue-crypto-dashboard/fonts/fontawesome-webfont.woff"
   },
   {
-    "revision": "735ab4f94fbcd57074377afca324c813",
+    "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/vue-crypto-dashboard/robots.txt"
   },
   {
-    "revision": "78916b79665f48e190a9",
+    "revision": "8b0e5634cf902601d21c",
     "url": "/vue-crypto-dashboard/js/chunk-vendors.js"
   },
   {
-    "revision": "017a8c39314f1e3c2680",
-    "url": "/vue-crypto-dashboard/js/chunk-1ba81c50.js"
+    "revision": "94344a811bbb52e30664",
+    "url": "/vue-crypto-dashboard/js/chunk-be816ec4.js"
   },
   {
-    "revision": "6230442eed0a890f82ff",
-    "url": "/vue-crypto-dashboard/js/chunk-1a68e4f2.js"
+    "revision": "3d376887868b1cbcfd6d",
+    "url": "/vue-crypto-dashboard/js/chunk-73561540.js"
   },
   {
-    "revision": "23e2284c0e6b36a1bfa9",
+    "revision": "213b83d80ee18c63d2d1",
     "url": "/vue-crypto-dashboard/js/app.js"
   },
   {
-    "revision": "f61ad4b0ed28c286c8635224e6b6e0da",
+    "revision": "6f517fa4047c051dc0bb264e4d513086",
     "url": "/vue-crypto-dashboard/index.html"
   },
   {
-    "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
+    "revision": "912ec66d7572ff821749319396470bde",
     "url": "/vue-crypto-dashboard/img/fontawesome-webfont.svg"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/vue-crypto-dashboard/fonts/fontawesome-webfont.eot"
   },
   {
-    "revision": "23e2284c0e6b36a1bfa9",
+    "revision": "213b83d80ee18c63d2d1",
     "url": "/vue-crypto-dashboard/css/app.css"
   }
 ];
