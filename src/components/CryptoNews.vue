@@ -49,21 +49,16 @@
         }
 
       },
-      getNews() {
-        const context = this;
-        fetch('https://min-api.cryptocompare.com/data/v2/news/?lang=EN').then(
-          function(response) {
-            if (response.status !== 200) {
-              console.log('Looks like there was a problem. Status Code: ' + response.status);
-              return;
-            }
-            response.json().then(function(data) {
-              context.news = data.Data;
-            });
-          }.bind(this)
-        ).catch(function(err) {
-          console.log('Fetch Error :-S', err);
-        });
+      async getNews() {
+        let response = await fetch('https://min-api.cryptocompare.com/data/v2/news/?lang=EN');
+        if (response.ok) {
+          let json = await response.json();
+          this.news = json["Data"];
+          console.log(json);
+        }
+        else {
+          console.log('Fetch Error :-S', response.status);
+        }
       }
     },
     filters: {
