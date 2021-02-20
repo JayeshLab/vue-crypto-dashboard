@@ -31,7 +31,7 @@
   // eslint-disable-next-line
   import 'amstock3/amcharts/amstock'
 
-  var proxyUrl = 'https://cors-anywhere.herokuapp.com/'
+  const proxyUrl = 'https://proxy.mysoftnotes.com/proxy.php?curl=';
 
   export default {
     name: 'coin-charts',
@@ -231,7 +231,8 @@
       fetchChartData(isUpdate = false) {
         this.chartLoading = true
         //proxyuUrl is done to avoid cross-origin error as it is directly called from javascript.
-        fetch(`${proxyUrl}https://api.binance.com/api/v1/klines?symbol=${this.symbol}&interval=${this.interval}`).then(
+        const apiurl = encodeURIComponent(`https://api.binance.com/api/v1/klines?symbol=${this.symbol}&interval=${this.interval}`);
+        fetch(`${proxyUrl}${apiurl}`).then(
           function (response) {
             if (response.status !== 200) {
               console.log('Looks like there was a problem. Status Code: ' + response.status);

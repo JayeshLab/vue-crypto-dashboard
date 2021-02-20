@@ -21,7 +21,6 @@ const router = new Router({
   ]
 })
 router.beforeEach((to, from, next) => {
-  console.log('BASE ' + process.env.BASE_URL);
   next()
 })
 export default router;
