@@ -9,11 +9,11 @@
                     </a>
                 </div>
                 <div>
-                    <h6 class="news-title"><a :href="article.url" target="_blank">{{article.title}}</a></h6>
+                    <h6 class="news-title"><a :href="article.url" target="_blank">{{ article.title }}</a></h6>
                     <p v-html="truncateText(article.body)"></p>
                     <div class="news-data">
-                        <div class="news-source">{{article.source_info.name}}</div>
-                        <div class="news-date">{{ article.published_on | time }}</div>
+                        <div class="news-source">{{ article.source_info.name }}</div>
+                        <div class="news-date">{{ time_since(article.published_on) }}</div>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
     </section>
 </template>
 <script>
-  import timeago from 'timeago.js';
+  import { ago } from '@/util/Utility'
   export default {
     created() {
       this.getNews();
@@ -59,13 +59,16 @@
         else {
           console.log('Fetch Error :-S', response.status);
         }
+      },
+      time_since(val) {
+        if(val) {
+          return ago(val);
+        } else {
+          return '';
+        }
       }
     },
     filters: {
-      time: function (value) {
-        if (!value) return '';
-        return timeago().format(value * 1000)
-      },
       tags: function(value){
         if(!value) return '';
         return value.split('|').join(', ')
