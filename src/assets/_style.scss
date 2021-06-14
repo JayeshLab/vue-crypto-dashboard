@@ -1,10 +1,30 @@
-body {
+html, body {
+  height:100%;
+  width: 100%;
   padding: 0;
   margin: 0;
+}
+body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scrollbar-width: thin;
 }
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background: #bbb;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+  -webkit-border-radius: 1ex;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+::-webkit-scrollbar-corner {
+  background: #bbb;
+}
+
 button:focus {
   outline: none
 }
@@ -21,6 +41,7 @@ button:focus {
 .layout-container{
   height: 100%;
   width:100%;
+  padding-bottom: 16px;
 }
 .page-header {
   position: fixed;
@@ -77,6 +98,27 @@ button:focus {
   }
   &:active{
     box-shadow: none;
+  }
+}
+.clear-btn {
+  position: fixed;
+  bottom: 4px;
+  right: 8px;
+  background-color: #ff305a;
+  border: none;
+  border-radius: 16px;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  z-index: 2000;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  &:hover {
+    background-color: #ff002f;
   }
 }
 .slash {

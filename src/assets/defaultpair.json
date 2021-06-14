@@ -1,10 +1,86 @@
 [
-  {"symbol":"BTCUSDT","base":"BTC","quote":"USDT","name":"Bitcoin"},
-  {"symbol":"ETHUSDT","base":"ETH","quote":"USDT","name":"Ethereum"},
-  {"symbol":"XRPUSDT","base":"XRP","quote":"USDT","name":"XRP"},
-  {"symbol":"ETHBTC","base":"ETH","quote":"BTC","name":"Ethereum"},
-  {"symbol":"MDABTC","base":"MDA","quote":"BTC","name":"Moeda"},
-  {"symbol":"EOSBTC","base":"EOS","quote":"BTC","name":"EOS"},
-  {"symbol":"MDAETH","base":"MDA","quote":"ETH","name":"Moeda"},
-  {"symbol":"TRXETH","base":"TRX","quote":"ETH","name":"Tronix"}
+  {
+    "cid": 1,
+    "symbol": "BTCUSDT",
+    "base": "BTC",
+    "quote": "USDT",
+    "name": "Bitcoin"
+  },
+  {
+    "cid": 74,
+    "symbol": "DOGEBTC",
+    "base": "DOGE",
+    "quote": "BTC",
+    "name": "Dogecoin"
+  },
+  {
+    "cid": 1027,
+    "symbol": "ETHUSDT",
+    "base": "ETH",
+    "quote": "USDT",
+    "name": "Ethereum"
+  },
+  {
+    "cid": 52,
+    "symbol": "XRPUSDT",
+    "base": "XRP",
+    "quote": "USDT",
+    "name": "XRP"
+  },
+  {
+    "cid": 1027,
+    "symbol": "ETHBTC",
+    "base": "ETH",
+    "quote": "BTC",
+    "name": "Ethereum"
+  },
+  {
+    "cid": 5161,
+    "symbol": "WRXBTC",
+    "base": "WRX",
+    "quote": "BTC",
+    "name": "WazirX"
+  },
+  {
+    "cid": 2416,
+    "symbol": "TFUELBTC",
+    "base": "TFUEL",
+    "quote": "BTC",
+    "name": "Theta Fuel"
+  },
+  {
+    "cid": 6636,
+    "symbol": "DOTBNB",
+    "base": "DOT",
+    "quote": "BNB",
+    "name": "Polkadot"
+  },
+  {
+    "cid": 10188,
+    "symbol": "ATABNB",
+    "base": "ATA",
+    "quote": "BNB",
+    "name": "Automata Network"
+  },
+  {
+    "cid": 3890,
+    "symbol": "MATICBNB",
+    "base": "MATIC",
+    "quote": "BNB",
+    "name": "Polygon"
+  },
+  {
+    "cid": 1839,
+    "symbol": "BTCGBP",
+    "base": "BTC",
+    "quote": "GBP",
+    "name": "Binance Coin"
+  },
+  {
+    "cid": 5994,
+    "symbol": "SHIBEUR",
+    "base": "SHIB",
+    "quote": "EUR",
+    "name": "SHIBA INU"
+  }
 ]

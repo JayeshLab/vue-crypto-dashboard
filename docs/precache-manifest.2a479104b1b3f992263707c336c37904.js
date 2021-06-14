@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "831f1a7995f158edd8e0",
+    "revision": "4841c262e5330db95f26",
     "url": "/vue-crypto-dashboard/css/app.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-crypto-dashboard/index.html"
   },
   {
-    "revision": "831f1a7995f158edd8e0",
+    "revision": "4841c262e5330db95f26",
     "url": "/vue-crypto-dashboard/js/app.js"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-crypto-dashboard/js/chunk-60bb78bb.js"
   },
   {
-    "revision": "5d71e05dcf9822dac5d7",
+    "revision": "230ed56cd31988cf5393",
     "url": "/vue-crypto-dashboard/js/chunk-b76e42e8.js"
   },
   {

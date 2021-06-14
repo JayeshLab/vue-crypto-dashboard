@@ -20,6 +20,9 @@ export default new Vuex.Store({
     }
   },
   mutations: {
+    SET_DEFAULT: (state) => {
+      state.currencies = defaultPair
+    },
     UPDATE_TICKER: (state, payload) => {
       const tick = state.tickers[payload.symbol]
       payload.pchg = tick ? (payload.price > tick.price? 1 : -1 ) : 1
