@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c9cbef0ddecb72b571a5",
+    "revision": "831f1a7995f158edd8e0",
     "url": "/vue-crypto-dashboard/css/app.css"
   },
   {
@@ -24,23 +24,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-crypto-dashboard/img/fontawesome-webfont.svg"
   },
   {
-    "revision": "928c10d1141789acd4889f85a76728b5",
+    "revision": "c43ba705e5f5b519a612259bb0ed8957",
     "url": "/vue-crypto-dashboard/index.html"
   },
   {
-    "revision": "c9cbef0ddecb72b571a5",
+    "revision": "831f1a7995f158edd8e0",
     "url": "/vue-crypto-dashboard/js/app.js"
   },
   {
-    "revision": "0372aa6e0b9eec5eb7e1",
-    "url": "/vue-crypto-dashboard/js/chunk-00afbcf4.js"
+    "revision": "962c02a209e573729415",
+    "url": "/vue-crypto-dashboard/js/chunk-60bb78bb.js"
   },
   {
-    "revision": "808d28f8718fc4d38793",
-    "url": "/vue-crypto-dashboard/js/chunk-453573ed.js"
+    "revision": "5d71e05dcf9822dac5d7",
+    "url": "/vue-crypto-dashboard/js/chunk-b76e42e8.js"
   },
   {
-    "revision": "ffa5425b98e9ff0c9906",
+    "revision": "565871ff154acf3ade86",
     "url": "/vue-crypto-dashboard/js/chunk-vendors.js"
   },
   {
