@@ -52,3 +52,7 @@ npm run lint
 ```
 npm run test:unit
 ```
+
+## Register for Binance
+[<img src="https://user-images.githubusercontent.com/36194663/121839463-bcb68a00-ccf7-11eb-837a-51f50326f352.jpg" height="530" width="300">](https://www.binance.com/en/register?ref=SML06GD0)
+
