@@ -1,6 +1,6 @@
 <template>
   <div class="board">
-    <div class="card-block" v-for="(value, index) in currencies" :key="index">
+    <div class="card-block" v-for="value in currencies" :key="value.symbol">
       <CurrencyCard :ticker="tickers[value.symbol] || {}" :info="value"></CurrencyCard>
     </div>
   </div>

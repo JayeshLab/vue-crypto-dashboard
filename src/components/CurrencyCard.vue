@@ -40,9 +40,13 @@
     props: ['ticker', 'info'],
     data() {
       return {
-        showDropDown: false,
-        iconbase: 'https://raw.githubusercontent.com/rainner/binance-watch/master/public/images/icons/' + this.info.base.toLowerCase() + '_.png'
+        showDropDown: false
       }
+    },
+    computed: {
+        iconbase() {
+            return `https://s2.coinmarketcap.com/static/img/coins/64x64/${this.info.cid}.png`
+        }
     },
     methods: {
       onDropDown() {

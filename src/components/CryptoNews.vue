@@ -2,7 +2,7 @@
     <section class="news">
         <header class="news-header">Latest News</header>
         <div class="news-block">
-            <div class="news-item" v-for="(article, index) in news" :key="index">
+            <div class="news-item" v-for="article in news" :key="article.id">
                 <div class="thumb-img">
                     <a :href="article.url" target="_blank">
                         <img :src="article.imageurl">

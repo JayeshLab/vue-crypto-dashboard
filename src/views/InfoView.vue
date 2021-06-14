@@ -7,7 +7,7 @@
                         <div class="info-card">
                             <div class="row">
                                 <div class="col">
-                                    <span class="coin-img" :style="{ backgroundImage : `url('https://raw.githubusercontent.com/rainner/binance-watch/master/public/images/icons/${currency.base.toLowerCase()}_.png')` }"></span>
+                                    <span class="coin-img" :style="{ backgroundImage : `url('https://s2.coinmarketcap.com/static/img/coins/64x64/${currency.cid}.png')` }"></span>
                                     <div class="coin-name">{{currency.name}} ({{currency.base}}) / <span class="small">{{currency.quote}}</span></div>
                                 </div>
                             </div>

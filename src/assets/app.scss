@@ -14,3 +14,21 @@ $font-family-base: 'Avenir', Helvetica, Arial, sans-serif;
 @import "../../node_modules/bootstrap/scss/utilities";
 
 @import "_style.scss";
+
+body {
+  scrollbar-width: thin;
+}
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background: #bbb;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+  -webkit-border-radius: 1ex;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+::-webkit-scrollbar-corner {
+  background: #bbb;
+}
