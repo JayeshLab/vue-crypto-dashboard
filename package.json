@@ -1,12 +1,11 @@
 {
   "name": "vue-crypto-dashboard",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Vue Cryptocurrency Dashboard",
   "author": "JayeshLab <helloiamjayesh@gmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "docs": "vue-cli-service build --dest docs"
   },
@@ -22,18 +21,16 @@
     "vuex": "^3.1.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.13",
-    "@vue/cli-plugin-eslint": "^4.5.13",
-    "@vue/cli-plugin-pwa": "^4.5.13",
-    "@vue/cli-plugin-unit-mocha": "^4.5.13",
-    "@vue/cli-service": "^4.5.13",
-    "@vue/test-utils": "^1.0.0-beta.30",
+    "@vue/cli-plugin-babel": "^4.5.15",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-plugin-pwa": "^4.5.15",
+    "@vue/cli-plugin-unit-mocha": "^4.5.15",
+    "@vue/cli-service": "^4.5.15",
     "babel-eslint": "^10.1.0",
-    "chai": "^4.2.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "node-sass": "^4.13.0",
-    "sass-loader": "^7.3.1",
+    "sass": "^1.49.7",
+    "sass-loader": "^10.1.1",
     "vue-template-compiler": "^2.6.11"
   },
   "bugs": {
