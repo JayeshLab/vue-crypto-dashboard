@@ -11,7 +11,7 @@ Demo: [https://jayeshlab.github.io/vue-crypto-dashboard/](https://jayeshlab.gith
 ## Tech Stacks
 
 - [Vue CLI 3](https://github.com/vuejs/vue-cli)
-- [Vue](http://vuejs.org/)
+- [Vue 2](https://v2.vuejs.org/)
 - [Vuex](https://github.com/vuejs/vuex)
 - [Vue Router](https://github.com/vuejs/vue-router)
 - [Sass](http://sass-lang.com/)
@@ -52,7 +52,4 @@ npm run lint
 ```
 npm run test:unit
 ```
-
-## Register for Binance
-[<img src="https://user-images.githubusercontent.com/36194663/121839463-bcb68a00-ccf7-11eb-837a-51f50326f352.jpg" height="530" width="300">](https://www.binance.com/en/register?ref=SML06GD0)
 
