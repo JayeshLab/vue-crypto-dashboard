@@ -2,10 +2,13 @@
 
 A Cryptocurrency Dashboard build with Vue JS, PWA enabled, Binance Websocket API for realtime price, amChart for displaying historical charts, SVG Sparkline Chart and Latest News feed from Cryptocompare site. 
 
-- New Vue3 + Typescript + Vite + Pinia version of cryptocurrency dashboard is available at [https://github.com/JayeshLab/vue3-crypto-dashboard](https://github.com/JayeshLab/vue3-crypto-dashboard)
-
+>***New Vue3 + Typescript + Vite + Pinia*** version of cryptocurrency dashboard is available at <br>
+> [https://github.com/JayeshLab/vue3-crypto-dashboard](https://github.com/JayeshLab/vue3-crypto-dashboard)
+<br>
 Demo: [https://jayeshlab.github.io/vue-crypto-dashboard/](https://jayeshlab.github.io/vue-crypto-dashboard/)
+<br>
 
+<br>
 <img width="500" alt="portfolio_view" src="https://user-images.githubusercontent.com/36194663/47360119-2ec3a600-d6ec-11e8-95a2-0b61d0bf0f11.png">
 
 <img width="500" alt="portfolio_view" src="https://user-images.githubusercontent.com/36194663/47360137-3edb8580-d6ec-11e8-8cb9-88b632328e38.png">
